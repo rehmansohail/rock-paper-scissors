@@ -37,7 +37,7 @@ while(1){
         console.log('Thanks for playing')
         break
     }
-    let userInput = prompt("Enter the input:")
+    let userInput = prompt("Enter the input (rock,paper,scissors):")
     userInput=userInput.toLowerCase();
     let compInput = random(arr);
     let result = game(userInput,compInput)
