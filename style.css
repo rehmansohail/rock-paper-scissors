@@ -6,6 +6,10 @@ body{
     align-items: center;
     
 }
+#result-text{
+    color: gold;
+    font-size: 30px;
+}
 .btn{
     margin: 20px;
     border-radius: 8px;
@@ -13,6 +17,7 @@ body{
     width: 100px;
     height: 40px;
     font-size: 15px;
+    cursor: pointer;
 }
 .box
 {
