@@ -16,7 +16,7 @@ function handleButtonClick(button) {
 
     if (userScore === 5 || compScore===5) {
         // Display a message
-        alert("Game over! Please reload the page for a new game.");
+        alert("Game over! Click ok for a new game.");
         gameButton.disabled = true; // Disable the button
         userScore=0;
         compScore=0;
