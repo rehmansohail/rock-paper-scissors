@@ -21,19 +21,19 @@ function handleButtonClick(button) {
 
   if (result == 1) {
     userScore++;
-    console.log(`you won ${userInput} beats ${compInput}`);
-    console.log(`score: ${userScore}-${compScore}`);
+    console.log(`You won ${userInput} beats ${compInput}`);
+    console.log(`Score: ${userScore}-${compScore}`);
   } else if (result == -1) {
     compScore++;
-    console.log(`you lost ${compInput} beats ${userInput}`);
-    console.log(`score: ${userScore}-${compScore}`);
+    console.log(`You lost ${compInput} beats ${userInput}`);
+    console.log(`Score: ${userScore}-${compScore}`);
   } else {
-    console.log(`match drawn`);
-    console.log(`score: ${userScore}-${compScore}`);
+    console.log(`Match drawn`);
+    console.log(`Score: ${userScore}-${compScore}`);
   }
   gameResult = `${userScore}-${compScore}`;
-  let res1 = `you won ${userInput} beats ${compInput}`;
-  let res2 = `you lost ${compInput} beats ${userInput}`;
+  let res1 = `You won ${userInput} beats ${compInput}`;
+  let res2 = `You lost ${compInput} beats ${userInput}`;
   if (result == 1) {
     resultText.textContent = res1 + " : " + gameResult;
   } else if (result == 0) {
