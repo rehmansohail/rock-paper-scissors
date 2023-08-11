@@ -6,8 +6,15 @@ var resultText = document.getElementById("result-text");
 
 var gameButton = document.getElementsByClassName("btn");
 
+
 function handleButtonClick(button) {
     
+  if(button.style.background=='gold'){
+    button.style.background='white'
+  }
+  else{
+    button.style.background='gold'
+  }
   if(userScore==5 || compScore==5){
     alert("Game Over. Starting a new game")
     location.reload()
